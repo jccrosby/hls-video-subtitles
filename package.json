@@ -1,0 +1,11 @@
+{
+  "name": "hls-video-subtitles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "hls.js": "^0.13.2",
+    "httpster": "^1.0.4"
+  }
+}

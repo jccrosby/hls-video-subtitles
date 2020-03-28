@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto-load Test</title>
+        <script src="/node_modules/hls.js/dist/hls.min.js"></script>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                margin: 0px;
+            }
+            video {
+                width: 100vw;
+            }
+            #captionOutput {
+                width: 100vw;
+                text-align: center;
+                background-color: #000;
+                color: #fff;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="loadBtn">LOAD</button>
+        <div class="video-container">
+            <video></video>
+        </div>
+        <div id="captionOutput"></div>
+        <script src="./src/app.js"></script>
+    </body>
+</html>

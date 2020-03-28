@@ -1,0 +1,8 @@
+{
+	"editor.formatOnSave": true,
+	"typescript.preferences.quoteStyle": "single",
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "all",
+	"prettier.vueIndentScriptAndStyle": true
+}
