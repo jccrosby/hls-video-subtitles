@@ -6,6 +6,6 @@
   "private": true,
   "dependencies": {
     "hls.js": "^0.13.2",
-    "httpster": "^1.0.4"
+    "httpster": "^1.1.0"
   }
 }
